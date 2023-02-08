@@ -23,7 +23,7 @@
                 </div>
                 <div>
                    <a href="${contextPath}/board/reviewDetail?listNumber=${idx}"><button class="btn btn-primary">REVIEW</button></a>
-                   <a href="https://www.lottecinema.co.kr/NLCHS/Ticketing"><button class="btn btn-danger ml-3">예매하기</button></a>
+                   <a href="https://www.lottecinema.co.kr/NLCHS/Ticketing" target="_blank"><button class="btn btn-danger ml-3">예매하기</button></a>
                 </div>
             </div>
         </div>
