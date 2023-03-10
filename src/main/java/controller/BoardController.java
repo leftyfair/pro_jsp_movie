@@ -73,7 +73,6 @@ public class BoardController extends HttpServlet {
 		}
 		
 		
-		
 		else if(pathInfo.equals("/viewDetail")) {
 			String parameter = request.getParameter("listNumber");
 			if(parameter!=null) {

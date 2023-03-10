@@ -3,6 +3,7 @@ package service;
 import java.util.List;
 
 import dao.ReplyDao;
+import domain.CommentVO;
 import domain.ReplyVO;
 
 public class ReplyService {

@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ include file="../layout/header.jsp" %>
 <link rel="stylesheet" href="${contextPath}/resources/css/detailImage.css">
+${movieMap }
         <div class="text-center mb-5">
 			<hr>
          	<h1 class="text-center">${movieMap.title}</h1>

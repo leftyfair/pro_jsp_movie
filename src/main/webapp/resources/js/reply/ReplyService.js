@@ -32,7 +32,7 @@ let replyService = {
 			}
 		}); // ajax end
 	},
-	
+		
 	write : function(replyVO) {
 		$.ajax({
 			type : 'post',

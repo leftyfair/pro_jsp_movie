@@ -11,11 +11,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class ReplyVO {
-	private int rno;
-	private int bno;
-	private String reply;
-	private String writer;
-	private Date replyDate;
-	private Date modifyDate;
+public class CommentVO {
+    private int id;
+    private int movieId;
+    private int memberId;
+    private String commentText;
+    private Date commentDate;
 }
